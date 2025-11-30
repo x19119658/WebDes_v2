@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="../styles/shop.css">
+    <link rel="stylesheet" href="../styles/components/nav.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- code to use icons shown by W3 -->
+    <script src="https://kit.fontawesome.com/17ef7a0e0f.js" crossorigin="anonymous"></script>
+    <script src="../js/shop.js" async></script>
+    <!--The async attribute is used to load and execute the js file without blocking the rest of the page from loading -->
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-body-primary z-1">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" height="90px" width="250px"
+                    alt="logo of the company"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" id="nav-top">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./recipes.html" target="_blank">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./substitutes.html" target="_blank">Substitutes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html" target="_blank">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Social Media
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.instagram.com/eire_vegan/" target="_blank"
+                                    rel="noopener noreferrer">Instagram</a></li>
+                            <li><a class="dropdown-item" href="https://www.x.com/vegan_eire" target="_blank"
+                                    rel="noopener noreferrer">X</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Top Banner -->
+    <div id="container-2">
+        <a href="#"><img class="veg" src="../images/shop/natura2.png" alt=""></a>
+    </div>
+    <!-- Main Content -->
+    <div class="shop-container">
+        <h1 class="slogan">Eat Healthy and Live Well</h1>
+        <!--Row 1-->
+        <div class="shop-row shop-items">
+            <!--Row 1 Item 1-->
+            <div class="shop-col shop-item">
+                <span class="shop-item-title">Vegan Mozzarella</span>
+                <img src="../images/shop/wd5.png" class="shop-item-image" alt="">
+                <p class="description">Savory, nutty, and perfectly cheesy — our vegan parmesan blend of cashews and
+                    nutritional yeast adds flavor boost to any dish.</p>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">€12.99</span>
+                    <button class="shop-btn btn-main shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <!--Row 1 Item 2-->
+            <div class="shop-col shop-item">
+                <span class="shop-item-title">Sezame Love</span>
+                <img src="../images/shop/wd8.png" class="shop-item-image" alt="">
+                <p class="description">One of the best in its category, Pate De Rose is a combination of tase and
+                    passion from one of the best chefs in the world. Let's go!</p>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">€16.99</span>
+                    <button class="shop-btn btn-main shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <!--Row 1 Item 3-->
+            <div class="shop-col shop-item">
+                <span class="shop-item-title">Chia Pudding</span>
+                <img src="../images/shop/wd18.png" class="shop-item-image" alt="">
+                <p class="description">When passion and professionalism meet, you can only get one of the best taste in
+                    the veg world. That taste is called Marnel</p>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">€22.99</span>
+                    <button class="shop-btn btn-main shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <!--Row 1 Item 4-->
+            <div class="shop-col shop-item">
+                <span class="shop-item-title">Banana Smoothies</span>
+                <img src="../images/shop/wd4.png" class="shop-item-image" alt="">
+                <p class="description">Riz Au Piment doesn't claim to be the best of its category but anyone who try it
+                    wants more and will never be happy again without...</p>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">€7.99</span>
+                    <button class="shop-btn btn-main shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div> <!--End of Row1-->
+
+        <!--Row 2-->
+        <div class="shop-row shop-items">
+            <!--Row 2 Item 1-->
+            <div class="shop-col shop-item">
+                <span class="shop-item-title">Parmesan Sprinkle</span>
+                <img src="../images/shop/wd17.png" class="shop-item-image" alt="">
+                <p class="description">From the warm streets of Manilla there is nothing as tasty and delicious and our
+                    Salade Bouillie. Give it a try !</p>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">€11.99</span>
+                    <button class="shop-btn btn-main shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <!--Row 2 Item 2-->
+            <div class="shop-col shop-item">
+                <span class="shop-item-title">Spread The Joy</span>
+                <img src="../images/shop/wd10.png" class="shop-item-image" alt="">
+                <p class="description">Almost everyone who taste me in the day of my inauguration became addicted.
+                    Except you. Of course because you are wrong</p>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">€10.99</span>
+                    <button class="shop-btn btn-main shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <!--Row 2 Item 3-->
+            <div class="shop-col shop-item">
+                <span class="shop-item-title">Chia Edition</span>
+                <img src="../images/shop/wd20.png" class="shop-item-image" alt="">
+                <p class="description">Savory, nutty, and perfectly cheesy — our vegan parmesan blend of cashews and
+                    nutritional yeast adds flavor boost to any dish.</p>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">€19.99</span>
+                    <button class="shop-btn btn-main shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <!--Row 2 Item 4-->
+            <div class="shop-col shop-item">
+                <span class="shop-item-title">New Best Friend </span>
+                <img src="../images/shop/wd2.png" class="shop-item-image" alt="">
+                <p class="description">If you didn't like any of our delicious meals, Creme Fraisee is the reason you
+                    will realise that you were wrong from the beginning.</p>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">€5.99</span>
+                    <button class="shop-btn btn-main shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div> <!--End of Row2-->
+    </div> <!--End Container-->
+
+    <!--CART-->
+    <div class="shop-container content-section">
+        <h2 class="slogan section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">€0</span>
+        </div>
+        <button class="shop-btn btn-main btn-purchase" type="button">PURCHASE</button>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="copyright">
+            <h4> &copy; Vegan Éire </br> All rights reserved</h4>
+        </div>
+        <div class="footer-nav">
+            <ul class="navbar-nav" id="nav-bottom">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./recipes.html" target="_blank">Recipes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./substitutes.html" target="_blank">Substitutes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html" target="_blank">Contact</a>
+                </li>
+        </div>
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/eire_vegan/" target="_blank" rel="noopener noreferrer"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.x.com/vegan_eire" target="_blank" rel="noopener noreferrer"><i
+                    class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cheese Bread</title>
+        <link rel="stylesheet" href="../styles/individual-recipe.css">
+        <link rel="stylesheet" href="../styles/components/nav.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <!-- code to use icons shown by W3 -->
+        <script src="https://kit.fontawesome.com/17ef7a0e0f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg bg-body-primary z-1">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" height="90px" width="250px"
+                        alt="logo of the company"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto" id="nav-top">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./recipes.html">Recipes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./substitutes.html" target="_blank">Substitutes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shop.html" target="_blank">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html" target="_blank">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Social Media
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://www.instagram.com/eire_vegan/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                                <li><a class="dropdown-item" href="https://www.x.com/vegan_eire" target="_blank" rel="noopener noreferrer">X</a></li> 
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="container-fluid">
+            <div class="main-recipe">
+            <!-- RECIPE HEADER -->
+                <div class="recipe-header">
+                    <div class="recipe-header-left-column">
+                        <div class="recipe-image">
+                            <img class="responsive-image" src="../images/recipes/cheese-bread.jpg" alt="Brazilian cheese bread">
+                        </div>
+                    </div>
+                    <div class="recipe-header-right-column">
+                        <div class="recipe-title">
+                            <h1>Pão de Queijo</h1>
+                        </div>
+                        <div class="recipe-description">
+                            <p>This vegan Brazilian cheese bread (pão de queijo) is golden and crisp on the outside while stretchy, soft and fluffy on the inside - like little mochi clouds. Instead of dairy cheese, we use tapioca starch to create that signature pull and bouncy texture Brazil is famously obsessed with. They're salty, savory, snackable and kind of addictive in the most harmless way.</p>
+                        </div>
+                        <div class="recipe-info">
+                            <p>
+                                <span class="recipe-total-time">Total Time:</span>
+                                <span class="recipe-time">45 minutes</span>
+                            </p>
+                            <p>
+                                <span class="recipe-yield">Yield: </span>
+                                <span class="recipe-serving-number" data-number="5">5 </span>
+                                <span class="recipe-serving">servings </span>
+                                <span id="recipe-yield-label">x1</span>
+                            </p>
+                        </div>
+                        <div class="print-recipe">
+                            <button id="print">
+                                <i class="fa-solid fa-print"></i> Print Recipe
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            <!-- INGREDIENTS -->
+                <section class="ingredients">
+                    <div class="ingredient-label">
+                        <div class="ingredient-title">
+                            <h5>INGREDIENTS</h5>
+                        </div>
+                        <div class="ingredient-scale">
+                            <h5> RECIPE SCALE :</h5>
+                            <button>0.5x</button>
+                            <button>1x</button>
+                            <button>2x</button>
+                        </div>
+                    </div>
+                    <div class="ingredients-list">
+                        <label>
+                            <input type="checkbox">
+                            <span class="number" data-number="1">1</span>
+                            <span class="ingredient"> cup cooked potato</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span class="number" data-number="2">2</span>
+                            <span class="ingredient"> cups tapioca starch</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span class="number" data-number="1">1</span>
+                            <span class="ingredient"> tsp salt</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span class="number" data-number="0.25">¼</span>
+                            <span class="ingredient"> tsp garlic powder</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span class="number" data-number="0.25">¼</span>
+                            <span class="ingredient"> tsp onion powder</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span class="number" data-number="0.25">¼</span>
+                            <span class="ingredient"> tsp black pepper</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span class="number" data-number="2">2</span>
+                            <span class="ingredient"> pinches ground turmeric</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span class="number" data-number="2">2</span>
+                            <span class="ingredient"> tbsp nutritional yeast</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span class="number" data-number="0.5">½</span>
+                            <span class="ingredient"> cup boiling water</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span class="number" data-number="0.33">⅓</span>
+                            <span class="ingredient"> cup olive oil</span>
+                        </label>
+                    </div>
+                </section>
+            <!-- INSTRUCTIONS -->
+                <section class="instructions">
+                    <h5>INSTRUCTIONS</h5>
+                    <ol>
+                        <li>Preheat oven to 180°C (350°F).
+                        <li>Mix dry ingredients in a bowl.</li>
+                        <li>Whisk boiling water and olive oil, then add to dry mix.</li>
+                        <li>Add mashed potato and mix until dough forms.</li>
+                        <li>Roll into balls and place on baking sheet.</li>
+                        <li>Bake for 32-35 minutes until bottoms are golden.</li>
+                    </ol>
+                </section>
+
+            </div>
+        </main>
+
+        <!-- Recipe Carousel -->
+        <div class="carousel-wrapper">
+            <div class="carousel-title">
+                <h2>Check Out Our Other Recipes</h2>
+            </div>
+            <div class="recipe-carousel">
+                <button class="arrow left">&#10094;</button>
+                <div class="carousel-box">
+                    <div class="carousel-track">
+                        <a href="./apple-crumble.html" target="_blank">
+                            <img src="../images/recipes/apple-crumble.jpg" alt="Apple Crumble">
+                            <span class="carousel-name">Apple Crumble</span>
+                        </a>
+                        <a href="./blueberry-scone.html" target="_blank">
+                            <img src="../images/recipes/blueberry-scone.jpg" alt="Blueberry Scone">
+                            <span class="carousel-name">Blueberry Scone</span>
+                        </a>
+                        <a href="./dahl.html" target="_blank">
+                            <img src="../images/recipes/dahl.jpg" alt="Dahl">
+                            <span class="carousel-name">Dahl</span>
+                        </a>
+                    </div>
+                </div>
+                <button class="arrow right">&#10095;</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="copyright">
+                <h4> &copy; Vegan Éire </br> All rights reserved</h4>
+            </div>
+            <div class="footer-nav">
+                <ul class="navbar-nav" id="nav-bottom">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./recipes.html">Vegan Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./substitutes.html" target="_blank">Substitutes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./shop.html" target="_blank">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html" target="_blank">Contact</a>
+                    </li>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/eire_vegan/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.x.com/vegan_eire" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+        <script src="../js/individual-recipe.js"></script>
+    </body>
+</html>

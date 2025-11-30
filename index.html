@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components/nav.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- code to use icons shown by W3 -->
+    <script src="https://kit.fontawesome.com/17ef7a0e0f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg bg-body-primary z-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" height="90px" width="250px"
+                    alt="logo of the company"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" id="nav-top">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/recipes.html" target="_blank">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/substitutes.html" target="_blank">Substitutes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/shop.html" target="_blank">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contact.html" target="_blank">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Social Media
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.instagram.com/eire_vegan/" target="_blank"
+                                    ref="noopener noreferrer">Instagram</a></li>
+                            <li><a class="dropdown-item" href="https://www.x.com/vegan_eire" target="_blank"
+                                    ref="noopener noreferrer">X</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide z-1">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/100Pc_Bio.png" height="600px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/wd9.png" height="600px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/wd10.png" height="600px" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="shop-container">
+
+        <!--Featured-->
+        <h1 class="slogan">Welcome & Join our healthy Journey!</h1>
+        <!--Row 1-->
+        <div class="shop-row shop-items">
+
+            <!--Fading Image1-->
+            <div class="shop-col1 shop-item">
+                <img src="images/main/20Off.png" class="shop-item-image1 fading" alt="">
+            </div>
+            <!--Fading Image2-->
+            <div class="shop-col1 shop-item">
+                <img src="images/main/seasonal deals.png" class="shop-item-image1 fading" alt="">
+            </div>
+        </div> <!--End of Featured-->
+
+
+        <!--Slogan2-->
+        <h1 class="slogan">An Extended Range of Quality Products</h1>
+        <!--Row 1-->
+        <div class="shop-row shop-items">
+            <!--Row 1 Item 1-->
+            <div class="shop-col shop-item">
+                <span class="shop-item-title">Pate De Rose</span>
+                <img src="images/main/wd16.png" class="shop-item-image" alt="">
+                <p class="description">One of the best in its category, Pate De Rose is a combination of tase and
+                    passion from one of the best chefs in the world. Let's go!</p>
+            </div>
+            <!--Row 1 Item 2-->
+            <div class="shop-col shop-item">
+                <span class="shop-item-title">Marnel</span>
+                <img src="images/main/wd14.png" class="shop-item-image" alt="">
+                <p class="description">When passion and professionalism meet, you can only get one of the best taste in
+                    the veg world. That taste is called Marnel</p>
+            </div>
+            <!--Row 1 Item 3-->
+            <div class="shop-col shop-item">
+                <span class="shop-item-title">Riz Au Piment</span>
+                <img src="images/main/wd21.png" class="shop-item-image" alt="">
+                <p class="description">Riz Au Piment doesn't claim to be the best of its category but anyone who try it
+                    wants more and will never be happy again without...</p>
+            </div>
+        </div> <!--End of Row1-->
+
+        <!--Row 2-->
+        <div class="shop-row shop-items">
+            <!--Row 2 Item 1-->
+            <div class="shop-col shop-item">
+                <span class="shop-item-title">Salade Bouillie</span>
+                <img src="images/main/wd19.png" class="shop-item-image" alt="">
+                <p class="description">From the warm streets of Manilla there is nothing as tasty and delicious and our
+                    Salade Bouillie. Give it a try and and you will never regret.</p>
+            </div>
+            <!--Row 2 Item 2-->
+            <div class="shop-col shop-item">
+                <span class="shop-item-title">Salade A La Pate</span>
+                <img src="images/main/wd11.png" class="shop-item-image" alt="">
+                <p class="description">Almost everyone who taste me in the day of my inauguration became addicted.
+                    Except you. Of course because you have not tasted me yet...</p>
+            </div>
+            <!--Row 2 Item 3-->
+            <div class="shop-col shop-item">
+                <span class="shop-item-title">Creme Fraisee</span>
+                <img src="images/main/wd17.png" class="shop-item-image" alt="">
+                <p class="description">If you didn't like any of our delicious meals, Creme Fraisee is the reason you
+                    will realise that you were wrong all the way from the beginning.</p>
+            </div>
+        </div> <!--End of Row2-->
+
+        <!--Slogan3-->
+        <h1 class="slogan">Meet Our Dedicated Team</h1>
+
+        <!--Team Members-->
+        <div class="shop-row shop-items">
+            <!--Edyta-->
+            <div class="shop-col2 shop-item">
+                <span class="shop-item-title">Edyta</span>
+                <img src="images/main/edyta.PNG" class="shop-item-image2" alt="">
+                <p class="description">Hello everyone. Thank you for visiting my website. I am just playing around with
+                    bootstrap. I have
+                    found bootstrap to be a real life saver in web design.</p>
+            </div>
+            <!--Lyana-->
+            <div class="shop-col2 shop-item">
+                <span class="shop-item-title">Lyana</span>
+                <img src="images/main/Lyana.png" class="shop-item-image2" alt="">
+                <p class="description">Hello everyone. Thank you for visiting my website. I am just playing around with
+                    bootstrap. I have
+                    found bootstrap to be a real life saver in web design.</p>
+            </div>
+            <!--Isis-->
+            <div class="shop-col2 shop-item">
+                <span class="shop-item-title">Isis</span>
+                <img src="images/main/an1.png" class="shop-item-image2" alt="">
+                <p class="description">Hello everyone. Thank you for visiting my website. I am just playing around with
+                    bootstrap. I have
+                    found bootstrap to be a real life saver in web design.</p>
+            </div>
+            <!--El-Donny-->
+            <div class="shop-col2 shop-item">
+                <span class="shop-item-title">Elie</span>
+                <img src="images/main/elie.png" class="shop-item-image2" alt="">
+                <p class="description">Hello everyone. Thank you for visiting my website. I am just playing around with
+                    bootstrap. I have
+                    found bootstrap to be a real life saver in web design.</p>
+            </div>
+        </div> <!--End of Team Members-->
+
+    </div> <!--End Container-->
+    <!-- Footer -->
+    <div class="footer">
+        <div class="copyright">
+            <h4> &copy; Vegan Éire </br> All rights reserved</h4>
+        </div>
+        <div class="footer-nav">
+            <ul class="navbar-nav" id="nav-bottom">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/recipes.html" target="_blank">Recipes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/substitutes.html"
+                        target="_blank">Substitutes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/shop.html" target="_blank">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/contact.html" target="_blank">Contact</a>
+                </li>
+        </div>
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/eire_vegan/" target="_blank" ref="noopener noreferrer"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.x.com/vegan_eire" target="_blank" ref="noopener noreferrer"><i
+                    class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+/* code to import fonts */
+@font-face {
+    font-family: Lamcho;
+    src: url(../fonts/Lamcho.ttf)
+}
+
+@font-face {
+    font-family: Recoleta;
+    src: url(../fonts/Recoleta.otf)
+}
+
+@font-face {
+    font-family: Vogue;
+    src: url(../fonts/Vogue.ttf)
+}
+
+@font-face {
+    font-family: Domaine-Light;
+    src: url(../fonts/Domaine-Light.otf)
+}
+
+@font-face {
+    font-family: Domaine-Medium;
+    src: url(../fonts/Domaine-Medium.otf)
+}
+
+@font-face {
+    font-family: Domaine-Bold;
+    src: url(../fonts/Domaine-Bold.otf)
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    width: 100%;
+    height:100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin:0px;
+}
+
+
+/* MAIN CONTENT STYLING */
+
+.top {
+    position:relative;
+    text-align: center;
+    margin:40px 0px;
+}
+
+.top img {
+    opacity: 0.9;
+}
+
+.quote {
+    color:white;
+    font-family:Recoleta;
+    font-size:80px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:900px;
+}
+
+.top button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    padding:4px 12px;
+    background-color:white;
+    font-family:Recoleta;
+    color: #2B3E2B;
+    box-shadow: 2px 2px 2px #2B3E2B;
+    border: 0px;
+}
+
+.top button:hover {
+    cursor: pointer;
+}
+
+#substitutes-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom:50px;
+}
+
+/* CARDS STYLING */
+.box {
+    margin:auto;
+}
+
+.box h3 {
+    margin:40px 20px 0px 20px;
+    font-family:Recoleta;
+    font-size:30px;
+}
+
+.box-1-cards,
+.box-2-cards,
+.box-3-cards,
+.box-4-cards {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-top: 2px solid #2B3E2B;
+    border-bottom: 2px solid #2B3E2B;
+}
+
+ .card {
+    color: #2B3E2B;
+    background-color: #e5f7e5;
+    text-align: justify;
+    margin: 16px;
+    width:280px;
+    height:420px;
+    border-radius: 4px;
+    font-family:Vogue;
+    display:flex;
+    flex-direction: column;
+    justify-content: baseline;
+    /* border-bottom: 2px solid #2B3E2B;
+    border-top: 2px solid #2B3E2B;; */
+ }
+
+.card img {
+    width:100%;
+    height:150px;
+    border-radius: 4px;
+}
+
+.card h4 {
+    font-size:20px;
+    margin: 10px 0px;
+    padding:10px;
+}
+
+.card p {
+    margin: 0px;
+    padding:10px;
+    font-size: 14px;
+}
+
+.card a {
+    margin: 0px;
+    padding:10px;
+    font-size: 14px;
+    text-align: end;
+    text-decoration: none;
+    color: #2B3E2B;
+}
+
+.image-card {
+    position: relative;
+}
+
+.image-card img {
+    opacity:1;
+    transition:0.5s ease;
+}
+
+.center-format {
+    transition:0.5 ease;
+    opacity:0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.center-text {
+    font-size: 22px;
+}
+
+/* PSEUDO CODE FOR CARDS */
+.card:hover {
+    transform: translateY(-5px) translateX(-5px) scale(1.1);
+    box-shadow: 5px 5px 5px black;
+}
+
+.card:hover img {
+    opacity:0.3;
+}
+
+.card:hover .center-format {
+    opacity: 1;
+}
+
+
+/* FOOTER STYLING */
+
+
+
+/* MEDIA QUERIES */
+
+
+/* media query for desktop/large screens */
+@media (max-width:1284px){
+
+}
+/* media query for laptops/small screens */
+@media (max-width:992px){
+
+}
+
+/* media query for iPads/tablets */
+@media (max-width:768px) {
+
+}
+
+/* media query for mobile devices */
+@media (max-width:480px){
+
+}

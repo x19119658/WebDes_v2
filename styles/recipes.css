@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Lamcho;
+    src: url(../fonts/Lamcho.ttf)
+}
+
+@font-face {
+    font-family: Recoleta;
+    src: url(../fonts/Recoleta.otf)
+}
+
+@font-face {
+    font-family: Vogue;
+    src: url(../fonts/Vogue.ttf)
+}
+
+@font-face {
+    font-family: Domaine-Light;
+    src: url(../fonts/Domaine-Light.otf)
+}
+
+@font-face {
+    font-family: Domaine-Medium;
+    src: url(../fonts/Domaine-Medium.otf)
+}
+
+@font-face {
+    font-family: Domaine-Bold;
+    src: url(../fonts/Domaine-Bold.otf)
+}
+
+body {
+    height:100vh;
+}
+
+.container-pt4 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#carouselExampleIndicators {
+    margin-bottom: 30px;
+    /*height: 800px;*/
+}
+
+.row1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    margin: 60px;
+    font-weight: bold;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    color: rgb(53, 94, 59);
+}
+
+#row {
+    margin-bottom: 2em;
+}
+
+/* Elie's code 12/11 */
+#container-2 {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    margin-bottom: 4em;
+}
+.veg {
+    width: 100%;
+}
